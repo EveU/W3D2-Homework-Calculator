@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(to top right, teal, white);
+}
+
+label {
+  color: #D8D8D8;
+}
+
+a {
+  text-decoration: none
+}
+
+li {
+  display: inline;
+  padding-right: 50px;
+}
