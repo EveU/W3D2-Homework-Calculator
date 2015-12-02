@@ -10,6 +10,18 @@ get '/about_us' do
   erb :about_us
 end
 
+get '/contact_us' do
+  erb :contact_us
+end
+
+get '/thank_you' do
+  @name = params[:name]
+  @email = params[:email]
+  @message = params[:message]
+
+  erb :thank_you
+end
+
 get '/calculate' do
   @first = params[:first].to_f
   @second = params[:second].to_f

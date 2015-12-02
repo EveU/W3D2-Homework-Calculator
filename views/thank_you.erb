@@ -1,0 +1,13 @@
+<% if @name != '' && @email != '' && @message != '' %>
+<section>
+  <header>
+  <h2>Thanks, <%= @name %>!</h2>
+  </header>
+  <p>We have received your message:</p>
+  <p><%= @message %></p>
+  <p>Your email address is: <%= @email %></p>
+</section>
+<% else %>
+  <h3>Oops!</h3>
+  <p>Not enough information entered... Please <a id='error' href="/contact_us">try again</a>.</p>
+<% end %>

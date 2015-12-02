@@ -1,16 +1,79 @@
 body {
-  background: linear-gradient(to top right, teal, white);
+  background: linear-gradient(to bottom, teal, white);
+  color: white;
 }
 
-label {
-  color: #D8D8D8;
+h1 {
+  clear: both;
+  text-align: center;
+  text-decoration: underline;
 }
 
 a {
+  font-weight: bold;
+  color: teal;
   text-decoration: none
 }
 
-li {
+nav {
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+nav li {
   display: inline;
   padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+img {
+  max-width: 150px;
+  float: left;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+#calculate li {
+  display: inline-block;
+  clear: left;
+  width: 75px;
+  height: 75px;
+  left margin: 50px;
+  padding-right: 20px;
+}
+
+#calculate li input {
+  width: 75px;
+  height: 75px;
+  font-size: 28px;
+  text-align: center;
+}
+
+button {
+  float: right;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#contact li {
+  float: left;
+  padding-bottom: 10px;
+}
+
+#contact input {
+  min-width: 225px;
+}
+
+.freetext {
+  width: 500px;
+  height: 200px;
+}
+
+#error {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
 }
